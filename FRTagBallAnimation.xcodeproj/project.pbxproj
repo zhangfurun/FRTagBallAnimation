@@ -15,6 +15,7 @@
 		2D69AE2D1D489BB4007A98E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D69AE2B1D489BB4007A98E9 /* LaunchScreen.storyboard */; };
 		2D69AE381D489BB4007A98E9 /* FRTagBallAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69AE371D489BB4007A98E9 /* FRTagBallAnimationTests.m */; };
 		2D69AE431D489BB5007A98E9 /* FRTagBallAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69AE421D489BB5007A98E9 /* FRTagBallAnimationUITests.m */; };
+		2D69AE611D499CE4007A98E9 /* FRSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69AE601D499CE4007A98E9 /* FRSphereView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		2D69AE3E1D489BB5007A98E9 /* FRTagBallAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRTagBallAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D69AE421D489BB5007A98E9 /* FRTagBallAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTagBallAnimationUITests.m; sourceTree = "<group>"; };
 		2D69AE441D489BB5007A98E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D69AE5A1D4999CD007A98E9 /* FRMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRMatrix.h; sourceTree = "<group>"; };
+		2D69AE5B1D499BD7007A98E9 /* FRPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPoint.h; sourceTree = "<group>"; };
+		2D69AE5F1D499CE4007A98E9 /* FRSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSphereView.h; sourceTree = "<group>"; };
+		2D69AE601D499CE4007A98E9 /* FRSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSphereView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		2D69AE1C1D489BB4007A98E9 /* FRTagBallAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2D69AE501D489D70007A98E9 /* TagBallView */,
 				2D69AE201D489BB4007A98E9 /* AppDelegate.h */,
 				2D69AE211D489BB4007A98E9 /* AppDelegate.m */,
 				2D69AE231D489BB4007A98E9 /* ViewController.h */,
@@ -138,6 +144,17 @@
 				2D69AE441D489BB5007A98E9 /* Info.plist */,
 			);
 			path = FRTagBallAnimationUITests;
+			sourceTree = "<group>";
+		};
+		2D69AE501D489D70007A98E9 /* TagBallView */ = {
+			isa = PBXGroup;
+			children = (
+				2D69AE5A1D4999CD007A98E9 /* FRMatrix.h */,
+				2D69AE5B1D499BD7007A98E9 /* FRPoint.h */,
+				2D69AE5F1D499CE4007A98E9 /* FRSphereView.h */,
+				2D69AE601D499CE4007A98E9 /* FRSphereView.m */,
+			);
+			path = TagBallView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +290,7 @@
 				2D69AE251D489BB4007A98E9 /* ViewController.m in Sources */,
 				2D69AE221D489BB4007A98E9 /* AppDelegate.m in Sources */,
 				2D69AE1F1D489BB4007A98E9 /* main.m in Sources */,
+				2D69AE611D499CE4007A98E9 /* FRSphereView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
