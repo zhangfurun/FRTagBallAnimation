@@ -43,10 +43,6 @@
     [self.sphereView setItems:array];
     [self.view addSubview:self.sphereView];
     
-    NSString * str = @"111.zip";
-    NSString *s = [str stringByReplacingOccurrencesOfString:@".zip" withString:@""];
-    NSLog(@"%@", s);
-    
 }
 
 #pragma mark - Method
